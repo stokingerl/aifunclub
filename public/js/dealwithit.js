@@ -8,7 +8,7 @@ if (getQueryVariable('link')) {
     $('#ontop').html('');
     $('#text').html('');
     scalar = 1;
-    $('form').replaceWith('<form action="http://aifunclub.azurewebsites.net/"><input type="submit" id="redirect" value="Wanna make another?"> <input type="button" id="twitter" value="Share on twitter">');
+    $('form').replaceWith('<form action="http://azureworkshoplms.azurewebsites.net/"><input type="submit" id="redirect" value="Wanna make another?"> <input type="button" id="twitter" value="Share on twitter">');
     origimgurl = getQueryVariable('link');
     socket.emit('origimgurl', origimgurl);
 }
